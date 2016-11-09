@@ -53,7 +53,13 @@
 |LINUX版龙讯C系列F10完整历史数据|[下载地址](http://www.xlinfo.cn/server/server10.html)|(每周五更新)|
 |龙讯权息weight历史数据包|[下载地址](http://www.xlinfo.cn/server/server10.html)|(每周五更新)|
 
-## 系统安装 (光盘安装/USB安装)
+## 系统安装视频教程
+### 钱龙Linux系统安装教程
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://static.hdslb.com/miniloader.swf" flashvars="aid=7013830&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+### 钱龙Linux5档配置
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://static.hdslb.com/miniloader.swf" flashvars="aid=7013830&page=2" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+### 钱龙Linux其他市场配置
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://static.hdslb.com/miniloader.swf" flashvars="aid=7013830&page=3" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
 
 > **<font color=#cc3300 size=3 > 视频下载地址：[百度云](http://pan.baidu.com/s/1dEW3Brz)</font>**
 
