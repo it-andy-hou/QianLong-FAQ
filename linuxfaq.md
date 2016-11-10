@@ -64,7 +64,7 @@ timedatectl set-time 2016-10-28
 
 期货日线位置```opt/qianlong/sysdata/history/cnfol/day```
 
-股份转让日线位置```opt/qianlong/sysdata/history/neeq```
+股份转让日线位置```opt/qianlong/sysdata/history/neeq/kday```
 
 ## 5. Linux自选股不保存
 修复自选股软连接
