@@ -70,7 +70,7 @@
 
 钱龙场内Novell向linux改造解决方案.doc [百度云](http://pan.baidu.com/s/1qXNtL7m)
 
-钱龙Linux（7.2版）网络版系统管理员手册.doc[百度云](http://pan.baidu.com/s/1dEB4R3j)
+钱龙Linux（7.2版）网络版系统管理员手册.doc[百度云](http://pan.baidu.com/s/1bpN0ef1)
 
 钱龙Linux（7.0版）网络版系统管理员手册.doc[百度云](http://pan.baidu.com/s/1geKos7L)
 
