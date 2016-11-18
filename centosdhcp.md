@@ -10,7 +10,6 @@
 **解决办法：**
 
 升级脚本下载地址
-360云盘地址：https://yunpan.cn/cvQNxTspZX3y4  访问密码 2f58
 
 百度云地址：http://pan.baidu.com/s/1c1CWHos
 

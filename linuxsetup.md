@@ -72,8 +72,6 @@
 
 钱龙Linux（7.2版）网络版系统管理员手册.doc[百度云](http://pan.baidu.com/s/1bpN0ef1)
 
-钱龙Linux（7.0版）网络版系统管理员手册.doc[百度云](http://pan.baidu.com/s/1geKos7L)
-
 ### 服务器安装Linux说明文档
 
 HP ProLiant DL380-Gen9 安装说明.doc[百度云](http://pan.baidu.com/s/1i5lU7Sp)
