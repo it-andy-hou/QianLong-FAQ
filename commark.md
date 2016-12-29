@@ -1,6 +1,3 @@
-<style>
-body{background-color:#F5F5F5}
-</style>
 ## Linux 客户端标志含义
 
 **<font color=#FA0000 size=3 >A</font>**:A股
