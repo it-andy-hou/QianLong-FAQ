@@ -40,7 +40,6 @@
 关于显示不准确的问题原因是龙讯更新的标志文件不正确或者不及时
 
 <code>/opt/qianlong/syscfg/commark.ini</code>
-<br>
 <code>/opt/qianlong/client/lonld/cfg/commark.ini</code>
 
 拿到正确文件更新后，重启客户端即可
