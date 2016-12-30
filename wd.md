@@ -2,7 +2,7 @@
 
 # Linux 常见问题 CHM
 
-**百度云** 文档版本：V 6.12 [钱龙Linux常见问题解答.chm](https://pan.baidu.com/s/1slctjbf)  
+文档版本：V 6.12 [钱龙Linux常见问题解答.chm](https://pan.baidu.com/s/1slctjbf)  
 
 更新延期教程方法；
 
