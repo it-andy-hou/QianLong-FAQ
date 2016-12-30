@@ -28,8 +28,9 @@
 <code>/opt/qianlong/sysdata/realtime/shase(sznse)/</code>
 8. 在"钱龙Linux控制台->L2DCD"处下拉框选"正常模式"，开启转码和服务平台。
 
-## 2. Linux服务器时间校准
-现象：Linux初始化时间未进行初始化，转码机状态显示初始化数据处理逻辑\[1]
+## 2. Linux服务器时间不对
+现象：Linux初始化时间未进行初始化，转码机状态显示初始化数据处理逻辑\[1] <br>
+转码状态显示服务器时间异常
 
 有以下两种解决方法：
 * 在"钱龙Linux控制台"界面有个"时间同步"按钮，在确认本机时间正确的情况下，点击该按钮，会自动同步本机时间到服务器。
@@ -50,7 +51,7 @@ timedatectl set-time 2016-10-28
 
 #### 3. 涨跌停价格不对
 中午替换realtime文件 方法见1  
-原因是因为初始化不对，可能原因卫星接收行情库晚，初始化早，或者点对点打开晚
+是因为初始化时行情数据异常，可能原因卫星接收行情库晚，初始化早，或者fast传输工具打开晚
 
 ## 4. 补日K线方法
 
@@ -67,7 +68,10 @@ timedatectl set-time 2016-10-28
 股份转让日线位置```opt/qianlong/sysdata/history/neeq/kday```
 
 ## 5. Linux自选股不保存
-修复自选股软连接
+
+**原因**：
+不正确地使用root用户操作，破坏了系统目录结构。
+修复自选股软连接，方法如下
 ```
 cd /opt/qianlong/client/lonld
 rm –rf usrcfg
@@ -86,21 +90,26 @@ ln –s /tmp/data data
 
 ## 9. Linux融资融券 前面没有R A B Q 或者标志不对
 ```
-opt\qianlong\syscfg\commark.ini
+![Linux客户端A、B、R、H、Q、通、深等含义以及问题](commark.md)
 ```
-需要更新 找龙讯 或者其他营业部拷贝
+联系龙讯技术支持，或者其他营业部拷贝
 
 ## 10. 大盘均为红色
 ![](image/dph.png)
 某一时刻，买卖力道，买的力道大于卖的力道，即显示红色。
 
 ## 11. Linux 看到不到沪港通 4X服务状态 显示如下 无监控数据列表
-删除/opt/qianlong/sysdata/history/neeq/hisexdata.szn
+**解决方法**
+删除
+/opt/qianlong/sysdata/history/neeq/hisexdata.szn<br>
+/opt/qianlong/sysdata/history/neeq/tmpweight.nq
+**原因**
 使用文件大小计算记录数时，超过了数据保存范围（64K）
 也有可能是Linux股转升级，后端口冲突，重启服务器即可。
 ![](image/22.png)
 
 ## 12. Linux 港股通看不到F10龙讯
+**该问题在某个老版本中出现，现已修复。**
 拷贝 \qianlong\service\hqsystem\hk2sh\libtran2ndhk2sh.ini
 
 然后覆盖到 \qianlong\service\hqsystem\4xinfo\libtran2ndhk2sh.ini
@@ -239,7 +248,7 @@ reboot
 
 
 ## 26. Linux web升级版本号不刷新
-/var/lib 目录重新覆盖一下
+/var/lib 目录重新覆盖一下。 一般情况下你不会遇到这个问题。
 
 ![](image/14.jpg)
 
@@ -265,7 +274,7 @@ reboot
 
 \[上海市场]启动行情驱动发生错误
 
-检测行情接收点对点 行情库是否传入Linux
+检测行情接收fast 行情库是否传入Linux
 
 ## 29. 点对点时间0：00 问题
 
@@ -284,3 +293,8 @@ reboot
 /tftpboot/pxelinux.cfg/default中是否有acpi=off，没有就加上。
 
 ![](image/47.png)
+## 32. 需要root权限怎么办？
+除了升级，几乎不会用到它。
+* 用root用户登录ssh或服务器。
+* 在qianlong用户登录的情况下，需要root权限执行某个命令，那么就在要执行的命令前面加上'sudo ',例如:  
+  <code>sudo systemctl restart nfs</code>

@@ -4,7 +4,7 @@
 
 少量无盘站启动没问题，多台或者同时启动多台无盘站存在无法进去，拿不到IP地址的情况。无盘站dhcp获取地址与网页管理看到的地址不同，或存在IP地址+1的情况。
 
-**<font color=#A52A2A>注意:此问题只存在Centos7.2系统上, Linux 6.2、Linux 7.0无这个问题</font>**
+**<font color=#A52A2A>注意:此问题只存在Centos7.2系统上, 其他版本无此问题</font>**
 查看系统系统版本命令<code>cat /etc/redhat-release</code>
 
 **解决办法：**
@@ -53,5 +53,4 @@ Upgrade success!
 Upgrade success! 表示升级成功
 
 **验证方法：**
-
-重启客户端查看IP地址即可。
+重启无盘故障消失，无盘能正常获取IP地址即说明升级成功。

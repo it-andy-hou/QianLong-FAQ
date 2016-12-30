@@ -4,9 +4,9 @@
 **<font color=#996600 size=3 > 补当日或者前几日 分时／实时 数据</font>** 推荐使用 **方法四、方法二**
 **<font color=#996600 size=3 > 补当日k线数据</font>** 推荐使用 **方法三、方法四、方法二**
 **<font color=#996600 size=3 > 补当日分钟线、月线、全息资料</font>** 推荐使用 **方法四、方法二**
-**<font color=#996600 size=3 > 补区个股或市场区间k线</font>** 推荐使用 **方法一、方法四、方法二**
+**<font color=#996600 size=3 > 补个股或市场区间k线</font>** 推荐使用 **方法一、方法四、方法二**
 **<font color=#996600 size=3 > 补历史全部资料</font>** 推荐使用 **方法四、方法二** 和 **方法五**
-**<font color=#996600 size=3 > 补龙讯F10、全息资料</font>** 推荐使用 **方法五**
+**<font color=#996600 size=3 > 补龙讯F10、权息资料</font>** 推荐使用 **方法五**
 
 ## 关于补数据的方法
 
@@ -121,12 +121,8 @@
 股份转让日线位置opt/qianlong/sysdata/history/neeq/weight
 ```
 
-**以上所有文件操作，操作完成均执行赋权命令**
+**Linux操作系统下，以上所有文件操作请使用qianlong用户执行，操作完成后无需执行赋权命令！**
 
-```
-chmod -R 777 /opt/qianlong
-
-chown -R qianlong:qianlong /opt/qianlong
 ```
 
 -------------
@@ -206,7 +202,7 @@ chown -R qianlong:qianlong /opt/qianlong
 股份转让十五分钟线位置ml45/sysdata/history/km15
 ```
 -------------
-全息资料
+权息资料  
 ```
 上海日线位置ml45/sysdata/realtime/shase/weight
 
@@ -227,5 +223,5 @@ chown -R qianlong:qianlong /opt/qianlong
 
 |历史咨询| 下载地址|备注|
 | ------ |:----------:|:----------:|
-|LINUX版龙讯C系列F10完整历史数据|[Go to download](http://www.xlinfo.cn/server/server10.html)|(每周五更新)|
-|龙讯权息weight历史数据包|[Go to download](http://www.xlinfo.cn/server/server10.html)|(每周五更新)|
+|LINUX版龙讯C系列F10完整历史数据|[下载](http://www.xlinfo.cn/server/server10.html)|(每周五更新)|
+|龙讯权息weight历史数据包|[下载](http://www.xlinfo.cn/server/server10.html)|(每周五更新)|
