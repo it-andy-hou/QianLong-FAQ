@@ -18,6 +18,8 @@
 说明文件:  readme.txt
 
 ### 步    骤：
+![](http://7xlgx2.com1.z0.glb.clouddn.com/yanqi.gif)
+
 一、DOS无盘站上操作：
 
  1.将延长年限目录“upgrade”拷贝至novell服务器上任一盘符下
