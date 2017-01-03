@@ -42,6 +42,22 @@
 |子网掩码计算器|[百度云](http://pan.baidu.com/s/1bp2vKjP)|营业部无盘站超过一个子网计算时用|
 |浏览器||推荐 谷歌、火狐|
 
+## 文档下载
+
+钱龙场内Novell向linux改造解决方案.doc [百度云](http://pan.baidu.com/s/1qXNtL7m)
+
+钱龙Linux（7.2版）网络版系统管理员手册.doc[百度云](https://pan.baidu.com/s/1jHQwvGy)
+
+### 服务器安装Linux说明文档
+
+HP ProLiant DL380-Gen9 安装说明.doc[百度云](http://pan.baidu.com/s/1i5lU7Sp)
+
+hp388G9 raid5.doc[百度云](http://pan.baidu.com/s/1hssIiAK)
+
+Dell PowerEdge R730 安装说明.doc[百度云](http://pan.baidu.com/s/1hsPmlgg)
+
+Lenovo(IBM) System x3550 M5 安装说明.doc[百度云](http://pan.baidu.com/s/1bGuIa6)
+
 ## 历史数据下载
 
 > 补历史数据详细教程参考 [补数据](sysdata.md)
@@ -64,20 +80,3 @@
 <embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://static.hdslb.com/miniloader.swf" flashvars="aid=7013830&page=3" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
 
 > **<font color=#cc3300 size=3 > 视频下载地址：[百度云](http://pan.baidu.com/s/1dEW3Brz)</font>**
-
-
-## 文档下载
-
-钱龙场内Novell向linux改造解决方案.doc [百度云](http://pan.baidu.com/s/1qXNtL7m)
-
-钱龙Linux（7.2版）网络版系统管理员手册.doc[百度云](http://pan.baidu.com/s/1bpN0ef1)
-
-### 服务器安装Linux说明文档
-
-HP ProLiant DL380-Gen9 安装说明.doc[百度云](http://pan.baidu.com/s/1i5lU7Sp)
-
-hp388G9 raid5.doc[百度云](http://pan.baidu.com/s/1hssIiAK)
-
-Dell PowerEdge R730 安装说明.doc[百度云](http://pan.baidu.com/s/1hsPmlgg)
-
-Lenovo(IBM) System x3550 M5 安装说明.doc[百度云](http://pan.baidu.com/s/1bGuIa6)
