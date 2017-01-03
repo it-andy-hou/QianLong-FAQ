@@ -1,7 +1,7 @@
 # 钱龙Linux的安装教程
 
-## 拓扑图
-![](image/Linux3.png)
+<!-- ## 拓扑图
+![](image/Linux3.png) -->
 
 ## 安装环境准备
 | 主/备服务器 | 数据中心/点对点服务器 |钱龙网关 |USB代理线/代理PC|无盘站|授权文件|
@@ -10,28 +10,28 @@
 |**CPU处理器**：P4 Xeon 2.4G*2 内存: 8G及以上|**CPU处理器**：INTEL 或AMD处理器2.0GHz以上内存: 4GB及以上|**CPU处理器**：INTEL 或AMD处理器2.0GHz以上内存: 4GB及以上|**CPU处理器**：INTEL 或AMD处理器2.0GHz以上内存: 4GB及以上|**CPU处理器**：INTEL 或AMD处理器1.2GHz以上||
 |**硬盘空间**: raid5阵列 阵列卡缓存512M（含）|**硬盘空间**: 10G可用空间|**硬盘空间**: 10G可用空间|**硬盘空间**: 10G可用空间|**内存**: 512MB及以上 VGA彩显 ||
 |**推荐型号**: IBM X3650 M5系列、HP DL388 G9系列、DELL R730系列|**推荐型号**: 双网卡|**推荐型号**: 双网卡|**推荐型号**: 双网卡|**推荐型号**: 8139型号的PXE网卡||
-|**安装方式**：光盘安装/USB安装||||||
-|**服务器系统兼容查询**: [查询地址](https://access.redhat.com/ecosystem/search/#/ecosystem/Red%20Hat%20Enterprise%20Linux?category=Server) |||||　|
+<!-- |**安装方式**：光盘安装/USB安装||||||
+|**服务器系统兼容查询**: [查询地址](https://access.redhat.com/ecosystem/search/#/ecosystem/Red%20Hat%20Enterprise%20Linux?category=Server) |||||　| -->
 
 ## 系统&程序下载
 
 | 系统版本|文件名| 下载地址|文件大小|备注|
 | ------ |:----------:|:----------:|:----------:|:----------:|:----------:|
-|Linux(redhat) 6.2|rhel-6.2-i386-custom.iso| [百度云](http://pan.baidu.com/s/1bPOgSu)|524 MB|旧服务器光盘安装的系统版本
-|Linux（redhat）7.0|rhel-7.0-x86_64-custom.iso|[百度云](http://pan.baidu.com/s/1kUWXvzL)|905 MB|光盘安装系统镜像
-|**Linux（centos）7.2 推荐安装**|QL_LINUX7-x86_64-20161009.iso|[百度云](https://pan.baidu.com/s/1bpcHt1d)|1.12 GB|**<font color=#cc3300 size=3 >U盘安装镜像(内置10月9日app&diskless)</font>**
+|**Linux（centos）7.2**|QL_LINUX7-x86_64-20161230.iso|[百度云](http://pan.baidu.com/s/1c29TNtY)|957.95MB|**<font color=#cc3300 size=3 >安装镜像</font>**
+<!-- |Linux(redhat) 6.2|rhel-6.2-i386-custom.iso| [百度云](http://pan.baidu.com/s/1bPOgSu)|524 MB|旧服务器光盘安装的系统版本
+|Linux（redhat）7.0|rhel-7.0-x86_64-custom.iso|[百度云](http://pan.baidu.com/s/1kUWXvzL)|905 MB|光盘安装系统镜像 -->
 
----------------
+<!-- ---------------
 |Diskless & APP| 下载地址 |文件大小|备注|
 | ------ |:----------:|:----------:|:----------:|:----------:|
 |qianlong_diskless_iso_2016_09_19.iso|[百度云](https://pan.baidu.com/s/1nvrVYjv)|170.2 MB||
-|qianlong_app_iso_2016_09_19.iso|[百度云](https://pan.baidu.com/s/1gfBfhcf)|19.3 MB|　|
+|qianlong_app_iso_2016_09_19.iso|[百度云](https://pan.baidu.com/s/1gfBfhcf)|19.3 MB|　| -->
 
 ---------------
-|点对点服务端 & Serviceconfig| 下载地址|MD5 |文件大小|备注|
-| ------ |:----------:|:----------:|:----------:|:----------:|
-|点对点服务端 140|[百度云](http://pan.baidu.com/s/1dFFOSgx)|3A5452B58F9B44265C226405DD23FBCC|808 KB||
-|Serviceconfig服务配置工具2016-01-21|[百度云](http://pan.baidu.com/s/1bpbXviB)|BC130640AA1B59D22AE0EA6F82A1BC50|23.9 MB|[官网下载地址](http://www.qianlong.com.cn/soft/download_wl.asp)|
+|FAST传输工具 & Serviceconfig| 下载地址|
+| ------ |:----------:|
+|钱龙fast传输工具完整安装程序|[官网下载地址](http://www.qianlong.com.cn/soft/download_wl.asp)|
+|钱龙数据中心安装程序(含说明文件)	|[官网下载地址](http://www.qianlong.com.cn/soft/download_wl.asp)|
 ---------------
 |周边工具| 下载地址|备注|
 | ------ |:----------:|:----------:|
