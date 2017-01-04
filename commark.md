@@ -24,7 +24,7 @@
 
 **<font color=#FA0000 size=3 >深</font>**：深港通，可在深交所买卖的港股
 
-**<font color=#FA0000 size=3 >通</font>**：沪港通{沪股通,深股通}
+**<font color=#FA0000 size=3 >通</font>**：沪股通 深股通
 
 沪股通，可在港交所买卖的沪股 客户端快捷键：**<font color=#FFA726 size=3 >504068</font>**  <br>
 
