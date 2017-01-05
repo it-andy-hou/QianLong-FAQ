@@ -100,10 +100,9 @@ ln –s /tmp/data data
 
 ## 11. Linux 看到不到沪港通 4X服务状态 显示如下 无监控数据列表
 ![](image/22.png)<br>
-**解决方法**
-删除
-/opt/qianlong/sysdata/history/neeq/hisexdata.szn<br>
 
+**解决方法**
+删除/opt/qianlong/sysdata/history/neeq/hisexdata.szn <br>
 /opt/qianlong/sysdata/history/neeq/tmpweight.nq<br>
 **原因**<br>
 使用文件大小计算记录数时，超过了数据保存范围（64K）
