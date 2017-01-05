@@ -41,7 +41,7 @@
 |U盘烧录软件|[百度云](http://pan.baidu.com/s/1i5sajkT)|[官网地址](http://cn.ezbsystems.com/ultraiso/download.htm)|
 |子网掩码计算器|[百度云](http://pan.baidu.com/s/1bp2vKjP)|营业部无盘站超过一个子网计算时用|
 |浏览器||推荐 谷歌、火狐|
-
+|代理软件|[百度云](https://pan.baidu.com/s/1slMuDAX)|ccproxy [官网地址](http://www.ccproxy.com/)|
 ## 文档下载
 
 钱龙场内Novell向linux改造解决方案.doc [百度云](http://pan.baidu.com/s/1qXNtL7m)
