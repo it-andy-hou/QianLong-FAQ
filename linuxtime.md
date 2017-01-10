@@ -19,14 +19,20 @@ date -s "20120523 01:01:01"   //这样可以设置全部时间
 hwclock -w     //将当前时间和日期写入BIOS，避免重启后失效
 ```
 
-
 ## 查看时区
 ```
 date -R
 ```
 会显示"Thu, 28 Jul 2016 09:16:38 +0800"
 
-## 设置时区
+## Centos 7.2 / Redhat 7.0 修改时区方法
+
+使用下面的命令来更改时区为 Asia/Shanghai
+```
+timedatectl set-timezone Asia/Shanghai
+```
+时区就修改完成了
+<!-- 
 ```
 tzselect
 ```
@@ -91,4 +97,6 @@ Is the above information OK?
 2) No
 #?1    //输入1按回车
 ```
-时区就修改完成了
+ -->
+
+
