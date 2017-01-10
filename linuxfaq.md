@@ -294,8 +294,17 @@ reboot
 /tftpboot/pxelinux.cfg/default中是否有acpi=off，没有就加上。
 
 ![](image/47.png)
+
 ## 32. 需要root权限怎么办？
 除了升级，几乎不会用到它。
 * 用root用户登录ssh或服务器。
 * 在qianlong用户登录的情况下，需要root权限执行某个命令，那么就在要执行的命令前面加上'sudo ',例如:  
   <code>sudo systemctl restart nfs</code>
+
+## 33. 华宝添益 银华日利 直线
+原因：模净的关系
+```
+/opt/qianlong/service/market/cfg/gggl.ini
+/opt/qianlong/syscfg/cfg/gggl.ini
+```
+把这2个文件改名了。重新初始化后生效
