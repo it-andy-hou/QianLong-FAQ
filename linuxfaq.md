@@ -6,8 +6,8 @@
 * 除了做系统升级时，按说明要求需使用root用户时，才使用root用户登录进行操作。其他时候请使用qianlong用户，比如延期、补数据等。
 * 除了极个别的系统升级，需要您进行赋权操作之外，如果你觉得需要进行赋权操作，那么一定是什么地方错了。     
 * 如果在qianlong用户登录的情况下，实在需要root权限执行某个命令，那么就在要执行的命令前面加上'sudo ',例如
-<code>sudo systemctl restart dhcp</code>
-</font>
+  <code>sudo systemctl restart dhcp</code>
+  </font>
 
 > 文档过长建议使用浏览器搜索"Ctrl + F"进行页内关键词搜索
 
@@ -18,14 +18,14 @@
 1. 从其他地方取得正确的行情数据。
 2. web上停止转码和服务平台程序。
 3. 确认"程序设置->l2dcd设置->基本路径"处的"上海行情库"和"非交易文件路径"设置正确，其中
- - "上海行情库"：指向服务器上mktdt00.txt文件所在的路径，包括文件名。
- - "非交易文件路径"： 指向jfyYYYYMMDD.txt文件所在路径，比如今天我这是
-<code>/opt/qianlong/sysdata/remote/msg/fjy20161028.txt</code>
+- "上海行情库"：指向服务器上mktdt00.txt文件所在的路径，包括文件名。
+- "非交易文件路径"： 指向jfyYYYYMMDD.txt文件所在路径，比如今天我这是
+   <code>/opt/qianlong/sysdata/remote/msg/fjy20161028.txt</code>
 4. 在"钱龙Linux控制台->L2DCD"处下拉框选"重做全市场初始化"、"重做上海市场初始化"或"重做深圳市场初始化"，根据市场选择，然后开启转码。
 5. 重启客户端连接这台服务器，观察最后一笔数据(之前的走势都是直线，暂时不用理会)。如果正常了就进入下一步，否则请从第二步开始检查。
 6. 关闭转码机。
 7. 登录服务器替换realtime目录下当天日期的文件(!一定是qianlong用户!)，目录为：
-<code>/opt/qianlong/sysdata/realtime/shase(sznse)/</code>
+   <code>/opt/qianlong/sysdata/realtime/shase(sznse)/</code>
 8. 在"钱龙Linux控制台->L2DCD"处下拉框选"正常模式"，开启转码和服务平台。
 
 ## 2. Linux服务器时间不对
@@ -49,7 +49,7 @@ timedatectl set-time 9:30:00
 timedatectl set-time 2016-10-28
 ```
 
-#### 3. 涨跌停价格不对
+## 3. 涨跌停价格不对
 中午替换realtime文件 方法见1  
 是因为初始化时行情数据异常，可能原因卫星接收行情库晚，初始化早，或者fast传输工具打开晚
 
@@ -256,10 +256,10 @@ reboot
 ## 27. Linux 4X或者转码机 按钮按不下去
 
 1. 缺少 hktime.ini 文件
-/opt/qianlong/service/market/CFG/hktime.ini
+   /opt/qianlong/service/market/CFG/hktime.ini
 
 2. root权限执行了转码机和其他程序
-运行脚本修复权限，需在非开市期间才能执行。
+   运行脚本修复权限，需在非开市期间才能执行。
 ```
 /opt/qianlong/bin/fix_permission.sh
 ```
@@ -308,3 +308,13 @@ reboot
 /opt/qianlong/syscfg/cfg/gggl.ini
 ```
 把这2个文件改名了。重新初始化后生效
+
+## 34.fast工具网页保存报错'[数据检查]设置argo_client参数失败，失败原因cannot open mutex file 13!'
+
+原因是缺失一个文件或者权限问题导致
+
+```
+touch  /tmp/.argo_client.7A6F6579
+chown  qianlong:qianlong  /tmp/.argo_client.7A6F6579
+```
+
