@@ -318,3 +318,10 @@ touch  /tmp/.argo_client.7A6F6579
 chown  qianlong:qianlong  /tmp/.argo_client.7A6F6579
 ```
 
+## 35 银华日利 华宝天益 511880  511990 直线
+
+原因:因为gggl.ini给show2003用的 mktdt00.txt可以不用了。 因为有配置所以回去读，文件不会自动更新。
+
+\opt\qianlong\syscfg\cfg\gggl.ini 改名 
+\opt\qianlong\service\market\cfg\gggl.ini  改名 
+重新初始化生效  明天就好了 
